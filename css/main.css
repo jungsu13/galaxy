@@ -293,5 +293,19 @@ body {
 .banner .contents {
     color: #fff;
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.banner h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.banner p {
+    color: #ccc;
+    margin: 57px 0 80px;
+    width: 36%;
+}
